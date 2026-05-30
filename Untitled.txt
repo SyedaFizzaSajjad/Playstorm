@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PlayStorm Gaming Hub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+}
+
+header{
+background:#161b22;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #30363d;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#58a6ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#0d1117,#1f2937);
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.hero span{
+color:#58a6ff;
+}
+
+.hero p{
+font-size:20px;
+color:#c9d1d9;
+max-width:700px;
+}
+
+.btn{
+margin-top:25px;
+display:inline-block;
+padding:14px 35px;
+background:#238636;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.section{
+padding:80px 8%;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#161b22;
+padding:25px;
+border-radius:12px;
+border:1px solid #30363d;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#58a6ff;
+}
+
+footer{
+text-align:center;
+padding:25px;
+background:#161b22;
+border-top:1px solid #30363d;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🎮 PlayStorm</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Videos</a>
+<a href="#">Games</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Welcome To <span>PlayStorm</span></h1>
+
+<p>
+Epic Gameplay, Viral Gaming Clips, Funny Moments,
+PC Games, Mobile Games, GTA, PUBG, Free Fire,
+Minecraft and much more.
+</p>
+
+<a href="#" class="btn">Join The Storm</a>
+</section>
+
+<section class="section">
+<h2>🔥 Featured Content</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🎯 Pro Gameplay</h3>
+<p>Best gaming moments and highlights.</p>
+</div>
+
+<div class="card">
+<h3>😂 Funny Clips</h3>
+<p>Gaming fails and funny reactions.</p>
+</div>
+
+<div class="card">
+<h3>🏆 Trending Games</h3>
+<p>Latest viral games and updates.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Gaming News</h3>
+<p>New releases and gaming updates.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>💙 About PlayStorm</h2>
+
+<p style="text-align:center;max-width:800px;margin:auto;font-size:18px;">
+PlayStorm is a gaming community dedicated to sharing
+epic gameplay, viral clips, walkthroughs, funny moments
+and the latest gaming trends from around the world.
+</p>
+</section>
+
+<footer>
+© 2026 PlayStorm Gaming Hub | All Rights Reserved
+</footer>
+
+</body>
+</html>
